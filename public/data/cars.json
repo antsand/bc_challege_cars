@@ -1,0 +1,6 @@
+{
+"Ford" : ["Focus", "Escape", "Fiesta"],
+"Honda": ["Fit", "Accord", "Civic", "Pilot", "CR-V"] ,
+"Toyota": ["Camry", "Tacoma", "Prius", "Corolla"],
+"Hyundai": ["Santa Fe", "Tuscon", "Elantra", "Kona", "Sonata"]
+}
