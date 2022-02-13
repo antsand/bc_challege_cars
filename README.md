@@ -12,20 +12,20 @@ The link to the working website is at: https://bc_challenge_cars.antsand.ca/
 - Bootstrap for CSS library
 
 To build and deploy the project you will need these prerequisites:
-PHP 7.4 
-Phalcon PHP V 4.2 installed
-node v10.19.0
-npm 6.14.4
-sass 3.4.25
+- PHP 7.4 
+- Phalcon PHP V 4.2 installed
+- node v10.19.0
+- npm 6.14.4
+- sass 3.4.25
 
 In the root folder of the project type:
-npm install
+- npm install
 
 This will install all the necessary dependencies to compile Vue code to js.
 
 To compile the vue.js code type:
-npm run dev (for development)
-npm run build (for production)
+- npm run dev (for development)
+- npm run build (for production)
 
 Development build will have debug capabilities and the code will not be compressed. 
 PRoduction code will be comrpessed, smaller file size and little to no debug capabilities. 
