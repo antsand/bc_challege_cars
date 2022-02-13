@@ -19,13 +19,17 @@ To build and deploy the project you will need these prerequisites:
 - sass 3.4.25
 
 In the root folder of the project type:
-- npm install
+```
+npm install
+```
 
 This will install all the necessary dependencies to compile Vue code to js.
 
 To compile the vue.js code type:
-- npm run dev (for development)
-- npm run build (for production)
+```
+npm run dev (for development)
+npm run build (for production)
+```
 
 Development build will have debug capabilities and the code will not be compressed. 
 PRoduction code will be comrpessed, smaller file size and little to no debug capabilities. 
