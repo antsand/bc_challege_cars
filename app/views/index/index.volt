@@ -2,7 +2,7 @@
     <h1>Car List</h1>
 </div>
 
-<p>A diretory of cars manufacturere's and their car list</p>
+<p>A directory of cars manufacturers and their car list</p>
 
 <p>This page is located at <code>views/index/index.volt</code></p>
 
