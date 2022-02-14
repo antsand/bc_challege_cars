@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "34654e138132891da008"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "f6794bb00491dce6b635"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -13040,8 +13040,12 @@ process.umask = function() { return 0; };
 	},
 	methods: {
 		search: function () {
+			/* check if the car data  has property of car manufacturer
+      if not, the detrails should be null */
 			if (this.cars_data.hasOwnProperty(this.car_manufacturer)) {
 				this.car_details = this.cars_data[this.car_manufacturer];
+			} else {
+				this.car_details = null;
 			}
 		}
 

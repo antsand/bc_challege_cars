@@ -42,8 +42,12 @@
 	},
 	methods: {
 		search:function() {
+			/* check if the car data  has property of car manufacturer
+			   if not, the detrails should be null */	
 			if (this.cars_data.hasOwnProperty(this.car_manufacturer))  {
 				this.car_details = this.cars_data[this.car_manufacturer];
+			} else {
+				this.car_details = null;
 			}
 		}
 
